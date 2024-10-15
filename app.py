@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, World!. We have changed our definitions</p>"
 
 @app.route("/ping", methods=['Get'])
 def ping():
-    return "<p>Hello there, you pinged me so i returned you this message!</p>"
+    return "<p>Hello there, you pinged me so i returned you this message! and a new messafe too</p>"
 
 @app.route("/aboutus", methods=['Get'])
 def about_us():
